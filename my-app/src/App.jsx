@@ -6,9 +6,11 @@ function App() {
     <div class={styles.App}>
       <header class={styles.header}>
         <img src={logo} class={styles.logo} alt="logo" />
-        <p>
+        {/* <p>
           Edit <code>src/App.jsx</code> and save to reload.
-        </p>
+        </p> */}
+        <p class="text-4xl text-red-400 tracking-widest">
+  Edit src/App.jsx and save to reload. </p>
         <a
           class={styles.link}
           href="https://github.com/solidjs/solid"
