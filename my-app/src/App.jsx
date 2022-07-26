@@ -1,11 +1,10 @@
-import logo from './images/Outdoor-Logo.webp';
 import styles from './App.module.css';
 
 function App() {
   return (
     <div class={styles.container}>
       <header class="relative w-full top-2.5 h-14.5px">
-        <img src={logo} class="relative top-2.5 left-4" alt="logo"/>
+        <img src="src/images/Outdoor.webp" class="relative top-2.5 left-4" alt="logo"/>
         <nav>
           <ul class="flex">
             <li><a href="#">Shop</a></li>
