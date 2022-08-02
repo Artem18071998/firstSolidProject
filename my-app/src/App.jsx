@@ -4,7 +4,7 @@ function App() {
   return (
     <div class={styles.container}>
       <header class="relative flex w-full top-2.5 h-14.5px">
-        <img src="src/images/Outdoor.webp" class="relative top-2.5 left-4" alt="logo"/>
+        <img src="/images/Outdoor.webp" class="relative top-2.5 left-4" alt="logo"/>
         <nav>
           <ul class="flex text end">
             <li><a href="#">Shop</a></li>
@@ -14,9 +14,12 @@ function App() {
             <li><a href="#">Categories</a></li>
             <li><button>Buy template</button></li>
           </ul>
-          <button><img src="src/images/Cart.webp" alt="cart" /></button>
+          <button class="bg-black"><img src="/images/Cart.webp" alt="cart"/></button>
         </nav>
       </header>
+      <hero class="relative flex w-full background-image: ">
+
+      </hero>
     </div>
   );
 }
